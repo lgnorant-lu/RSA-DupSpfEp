@@ -1,0 +1,38 @@
+# Python
+    __pycache__/
+    *.pyc
+    *.pyo
+    *.pyd
+    *.env
+    venv/
+    .venv/
+
+    # OS specific
+    .DS_Store
+    Thumbs.db
+
+    # IDE / Editor specific
+    .idea/
+    .vscode/
+
+    # Generated files (重要: 避免将敏感的私钥或大文件推送到仓库)
+    *.pem
+    *.key
+    *.enc
+    *.dec
+    test_*.txt 
+
+    # 其他
+    *.log
+    *.log.*
+    *.log.*.*
+    *.log.*.*.*
+    *.log.*.*.*.*
+    *.log.*.*.*.*.*
+    *.docx
+    *.doc
+    *.pdf
+    *.pptx
+    *.ppt
+    *.xls
+    *.xlsx
